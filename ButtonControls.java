@@ -70,7 +70,7 @@ currentState);
  break;
  }
  }
-};
+ };
  }
  static void playerBControl(JButton jbtn) {
  jbtn.addActionListener(new ActionListener() {
@@ -104,6 +104,7 @@ currentState);
  }
  }
  }
+};
  }
  @Override
  public void actionPerformed(ActionEvent e) {
