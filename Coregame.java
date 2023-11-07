@@ -8,7 +8,7 @@ public class CoreGame {
  currentState = new ArrayList<Integer>();
  ptr = 0;
  score = 0;
- hold = 0
+ hold = 0;
  dir = 1;
  player = 0;
  

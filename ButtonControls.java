@@ -46,8 +46,7 @@ currentState);
  t.start();
  playerALabel[1].setText("" + player_a.score);
  if (Rules.endOfGameReport(ar) == 1) {
- JOptionPane.showMessageDialog(mainPanel, "Game over! 
-Player A");
+ JOptionPane.showMessageDialog(mainPanel, "Game over! Player A");
  player_a.score = 0;
  player_b.score = 0;
  playerALabel[1].setText("" + player_a.score);
@@ -71,7 +70,7 @@ Player A");
  break;
  }
  }
- };
+};
  }
  static void playerBControl(JButton jbtn) {
  jbtn.addActionListener(new ActionListener() {
@@ -95,8 +94,7 @@ currentState);
  t.start();
  playerBLabel[1].setText("" + player_b.score);
  if (Rules.endOfGameReport(ar) == 2) {
- JOptionPane.showMessageDialog(mainPanel, "Game over! 
-Player B");
+ JOptionPane.showMessageDialog(mainPanel, "Game over! Player B");
  player_a.score = 0;
  player_b.score = 0;
  playerALabel[1].setText("" + player_a.score);
@@ -106,7 +104,6 @@ Player B");
  }
  }
  }
- };
  }
  @Override
  public void actionPerformed(ActionEvent e) {
@@ -114,4 +111,4 @@ Player B");
  }
 }
 
->>>>>>> 2faf2dcb86c40b99a6848eae17e617438426fd6f
+

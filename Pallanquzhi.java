@@ -50,23 +50,17 @@ public class Pallanguzhi {
  gamePanel.setLayout(gbl);
  cardPanel.add(gamePanel, "GamePanel");
  // play details
- playerALabel[0] = new JLabel("<html><font size='10' 
-color=#ff5555><u><i><b> PLAYER A SCORE </u></i></b></html>");
- 
-playerALabel[1] = new JLabel("<html><font size='10' color=#ff5555> 0 
-</html>");
+ playerALabel[0] = new JLabel("<html><font size='10'color=#ff5555><u><i><b> PLAYER A SCORE </u></i></b></html>");
+
+playerALabel[1] = new JLabel("<html><font size='10' color=#ff5555> 0 </html>");
  // playerALabel[0].setVerticalAlignment(JLabel.TOP);
- playerBLabel[0] = new JLabel("<html><font size='10' 
-color=#ff5555><u><i><b> PLAYER B SCORE </u></i></b></html>");
+ playerBLabel[0] = new JLabel("<html><font size='10' color=#ff5555><u><i><b> PLAYER B SCORE </u></i></b></html>");
  
-playerBLabel[1] = new JLabel("<html><font size='10' color=#ff5555> 0 
-</html>");
+playerBLabel[1] = new JLabel("<html><font size='10' color=#ff5555> 0 </html>");
  // Up or down Button style
- playerAButton = new JButton("<html><font size='10' color=#5538ff><i><b> 
-PLAY </i></b></html>");
+ playerAButton = new JButton("<html><font size='10' color=#5538ff><i><b> PLAY </i></b></html>");
  playerAButton.setBackground(Color.getHSBColor(184, 100, 50));
- playerBButton = new JButton("<html><font size='10' color=#5538ff><i><b> 
-PLAY </i></b></html>");
+ playerBButton = new JButton("<html><font size='10' color=#5538ff><i><b> PLAY </i></b></html>");
  playerBButton.setBackground(Color.getHSBColor(184, 100, 50));
  // Player A Control
  gbc.weightx = 50;
